@@ -1,2 +1,4 @@
 # Recommender-System
-A project about building a recommender system with a collection called MovieLens.
+A project about building a recommender system with a collection called MovieLens. <br>
+The MovieLens dataset contains users’ movie ratings and is popular for implementing and testing recommender systems. The specific dataset I used for this project was MovieLens 100K Dataset which contained 100,000 movie ratings from 943 users and a selection of 1682 movies. <br>
+The whole project includes **data manipulation** for the MovieLens data, baseline recommendation algorithms consisting of **average user rating**, **most popularity items**, user-user and item-item based collaborative filtering for **cosine, euclidean similarity measurement** and **Probabilistic Matrix Factorization(PMF)**. All these recommenders are evaluated by cross validation based on RMSE and ranking metrics.
